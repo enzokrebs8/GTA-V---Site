@@ -1,5 +1,2 @@
-# GTA-V-Site 
-https://enzokrebs8.github.io/GTA-V-Site/
-
-# Posicionamento CSS
-https://enzokrebs8.github.io/GTA-V-Site/posicionamento.html
+# https://enzokrebs8.github.io/GTA-V-Site/
+GTA-V-Site
