@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GTA V - Site - Contato</title>    
+    <title>GTA V - Site - Contato</title>
     <link rel="stylesheet" href="css/style-contato.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
 </head>
+
 <body class="main">
     <header class="sticky">
         <nav class="nav-bar">
@@ -42,21 +44,49 @@
         <section id="form">
             <h2>Contato</h2>
             <form action="https://api.staticforms.xyz/submit" method="post">
-                <label for="Nome"></label>
-                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
-                <label for="Nome"></label>
-                <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
-                <label for="Nome"></label>
-                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
-                <button type="submit">Enviar</button>
-
-                <input type="hidden" name="accessKey" value="29c339c4-02ea-4775-9322-36b33533ee10">
-                <input type="hidden" name="redirectTo" value="https://enzokrebs8.github.io/GTA-V-Site/obrigado.html">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="Nome">Nome</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-75">
+                        <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Email</label>
+                        <div>
+                        </div>
+                        <div class="row">
+                            <div class="col-75">
+                                <input type="email" name="email" placeholder="Digite seu email" autocomplete="off"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="msg">Mensagem</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-75">
+                                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"
+                                    required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit">Enviar</button>
+                        <input type="hidden" name="accessKey" value="29c339c4-02ea-4775-9322-36b33533ee10">
+                        <input type="hidden" name="redirectTo"
+                            value="https://enzokrebs8.github.io/GTA-V-Site/obrigado.html">
             </form>
         </section>
-    </div>  
+    </div>
     <footer>
-        <p>Desenvolvido por Enzo Krebs - <a class="footer" href="https://www.instagram.com/krebs_enzo/"target="_blank">@krebs_enzo</a></p>
+        <p>Desenvolvido por Enzo Krebs - <a class="footer" href="https://www.instagram.com/krebs_enzo/"
+                target="_blank">@krebs_enzo</a></p>
     </footer>
 </body>
+
 </html>

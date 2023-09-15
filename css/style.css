@@ -16,10 +16,11 @@ div.fixed {
 }
 
 .sticky {
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
+    /* Safari */
     position: sticky;
     top: 0;
-  }
+}
 
 h1 {
     font-family: 'Pricedown';
@@ -124,6 +125,10 @@ footer {
     background-color: rgb(37, 36, 36);
     width: 100%;
     color: white;
+}
+
+.direita {
+    right: 0;
 }
 
 .borda {
