@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="css/style-contato.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
-</head>
-
+</head> 
 <body class="main">
     <header class="sticky">
         <nav class="nav-bar">
@@ -18,8 +17,8 @@
             </div>
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="curiosidades.html" class="nav-link">Curiosidades e Teorias</a></li>
+                    <li class="nav-item"><a class="lis" href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a class="lis" href="curiosidades.html" class="nav-link">Curiosidades e Teorias</a></li>
                 </ul>
             </div>
             <div class="login-button">
@@ -46,46 +45,47 @@
             <form action="https://api.staticforms.xyz/submit" method="post">
                 <div class="row">
                     <div class="col-25">
-                        <label for="Nome">Nome</label>
+                        <label for="name">Nome</label>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-75">
-                        <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                        <input type="text" id="name" name="name" placeholder="Digite seu nome" autocomplete="off" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-25">
-                        <label for="email">Email</label>
-                        <div>
-                        </div>
-                        <div class="row">
-                            <div class="col-75">
-                                <input type="email" name="email" placeholder="Digite seu email" autocomplete="off"
-                                    required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-25">
-                                <label for="msg">Mensagem</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-75">
-                                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"
-                                    required></textarea>
-                            </div>
-                        </div>
-                        <button type="submit">Enviar</button>
-                        <input type="hidden" name="accessKey" value="29c339c4-02ea-4775-9322-36b33533ee10">
-                        <input type="hidden" name="redirectTo"
-                            value="https://enzokrebs8.github.io/GTA-V-Site/obrigado.html">
+                        <label for="lname">Sobrenome</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Digite seu sobrenome" autocomplete="off" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Digite seu email" autocomplete="off" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Mensagem</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required style="height:200px"></textarea>
+                    </div>
+                </div>
+                <button type="submit">Enviar</button>
+                <input type="hidden" name="accessKey" value="29c339c4-02ea-4775-9322-36b33533ee10">
+                <input type="hidden" name="redirectTo" value="https://enzokrebs8.github.io/GTA-V-Site/obrigado.html">
             </form>
         </section>
     </div>
     <footer>
-        <p>Desenvolvido por Enzo Krebs - <a class="footer" href="https://www.instagram.com/krebs_enzo/"
-                target="_blank">@krebs_enzo</a></p>
+        <p>Desenvolvido por Enzo Krebs Silva</p>
+        <a class="direita" href="https://github.com/enzokrebs8"><img class="logoicon" src="img/social/github_icon.png" alt="Meu Github"></a>
+        <a class="direita2" href="https://www.linkedin.com/in/enzo-krebs-999152288"><img class="logoicon" src="img/social/linkedin_icon.png" alt="Meu Linkedin"></a>
+        <a class="direita3" href="https://www.instagram.com/krebs_enzo/"><img class="logoicon" src="img/social/instaram_icon.png" alt="Meu Instagram"></a>
     </footer>
 </body>
 
